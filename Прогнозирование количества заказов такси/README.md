@@ -52,20 +52,20 @@
 
 ## Результаты
 **LightGBMRegressor**  
-- RMSE (Test): **41.65** ✅ (Лучшая модель)  
+- RMSE (Test): **41.65**  (Лучшая модель)  
 - RMSE (CV): **24.70**  
 
 **Сравнение моделей (RMSE на тестовой выборке):**
-- LightGBMRegressor: **41.65** ✅  
+- LightGBMRegressor: **41.65**   
 - LinearRegression: **41.91**  
 - RandomForestRegressor: **43.51**  
 - DecisionTreeRegressor: **53.56**  
 
 **Кросс-валидационные результаты (средний RMSE):**
 - LinearRegression: **25.44**  
-- LightGBMRegressor: **24.70** ✅  
+- LightGBMRegressor: **24.70**  
 - DecisionTreeRegressor: **29.53**  
-- RandomForestRegressor: **23.65** ✅  
+- RandomForestRegressor: **23.65**   
 
 ### Закономерности:
 - **Тренд:** стабильный рост числа заказов с марта по август с ускорением в августе  
